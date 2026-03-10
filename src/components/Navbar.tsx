@@ -7,7 +7,6 @@ import { Menu, X } from "lucide-react";
 const links = [
   { label: "Leistungen", href: "#leistungen" },
   { label: "Über uns", href: "#ueber-uns" },
-  { label: "Referenzen", href: "#referenzen" },
   { label: "Kontakt", href: "#kontakt" },
 ];
 
@@ -28,20 +27,20 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-16">
-        {/* Logo */}
-        <a href="#" className="flex items-center gap-2 group">
-          <Image
-            src="/logo-icon.png"
-            alt="Aliu Hausmeisterservice Logo"
-            width={40}
-            height={40}
-            className="object-contain rounded-md"
-          />
-          <span
-            className={`font-bold text-lg tracking-tight transition-colors ${
-              scrolled ? "text-[#1a4a7a]" : "text-white"
-            }`}
-          >
+        {/* Logo in circle + text */}
+        <a href="#" className="flex items-center gap-3">
+          <div className="w-10 h-10 rounded-full overflow-hidden shadow-md ring-2 ring-white/30 flex-shrink-0">
+            <Image
+              src="/logo-icon.png"
+              alt="Aliu Hausmeisterservice"
+              width={40}
+              height={40}
+              className="object-cover w-full h-full"
+            />
+          </div>
+          <span className={`font-bold text-sm tracking-tight transition-colors hidden sm:block ${
+            scrolled ? "text-[#1a4a7a]" : "text-white"
+          }`}>
             Aliu Hausmeisterservice
           </span>
         </a>

@@ -41,33 +41,34 @@ export default function Hero() {
               Ihr Hausmeisterservice in München
             </motion.div>
 
-            {/* Logo in hero */}
+            {/* Logo in circle */}
             <motion.div
-              initial={{ opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, delay: 0.05 }}
-              className="mb-6"
+              className="mb-8"
             >
-              <Image
-                src="/logo-icon.png"
-                alt="Aliu Hausmeisterservice"
-                width={110}
-                height={110}
-                className="object-contain rounded-xl"
-              />
+              <div className="w-36 h-36 rounded-full overflow-hidden shadow-2xl shadow-black/30 ring-4 ring-white/20">
+                <Image
+                  src="/logo-icon.png"
+                  alt="Aliu Hausmeisterservice"
+                  width={144}
+                  height={144}
+                  className="object-cover w-full h-full"
+                />
+              </div>
             </motion.div>
 
             <motion.h1
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="text-5xl lg:text-6xl font-bold text-white leading-tight tracking-tight mb-6"
+              className="text-4xl lg:text-5xl font-bold text-white leading-tight tracking-tight mb-6"
             >
-              Aliu{" "}
+              Ihr Hausmeisterservice{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#4dd9d9] to-[#60a5fa]">
-                Hausmeister-
+                in München
               </span>
-              <br />service
             </motion.h1>
 
             <motion.p
