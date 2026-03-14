@@ -27,10 +27,17 @@ export default function Datenschutz() {
               1. Datenschutz auf einen Blick
             </h2>
             <p>
-              Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und
-              Zweck der Verarbeitung von personenbezogenen Daten auf unserer
-              Website auf. Wir nehmen den Schutz Ihrer persönlichen Daten sehr
-              ernst.
+              Diese Website ist eine reine Informationsseite. Es gibt
+              <strong> kein Kontaktformular, keine Registrierung, keinen
+              Login und keine Kommentarfunktion</strong>. Wir erfassen,
+              speichern oder verarbeiten keinerlei personenbezogene Daten
+              der Besucher dieser Website.
+            </p>
+            <p className="mt-3">
+              Die einzigen technisch unvermeidlichen Daten sind
+              Server-Log-Dateien, die automatisch beim Aufruf jeder Website
+              entstehen (siehe Abschnitt 3). Diese werden von unserem
+              Hosting-Anbieter Vercel verwaltet und nicht von uns ausgewertet.
             </p>
           </section>
 
@@ -48,43 +55,47 @@ export default function Datenschutz() {
 
           <section>
             <h2 className="text-base font-semibold text-[#0f172a] mb-2">
-              3. Datenerfassung auf dieser Website
+              3. Technische Daten beim Websiteaufruf
             </h2>
             <h3 className="font-medium text-[#0f172a] mt-4 mb-1">
               Server-Log-Dateien
             </h3>
             <p>
-              Der Provider dieser Website erhebt und speichert automatisch
-              Informationen in Server-Log-Dateien, die Ihr Browser automatisch
-              übermittelt. Dies sind: Browsertyp und -version, verwendetes
-              Betriebssystem, Referrer-URL, Hostname des zugreifenden Rechners,
-              Uhrzeit der Serveranfrage und IP-Adresse.
+              Beim Aufruf dieser Website werden vom Hosting-Anbieter (Vercel)
+              automatisch technische Zugriffsdaten gespeichert. Dies ist bei
+              jeder Website technisch notwendig und umfasst: Browsertyp,
+              Betriebssystem, Referrer-URL, IP-Adresse und Uhrzeit des Abrufs.
             </p>
             <p className="mt-2">
-              Diese Daten werden nicht mit anderen Datenquellen zusammengeführt.
-              Grundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. f
-              DSGVO.
+              Wir als Betreiber haben auf diese Logs keinen aktiven Zugriff
+              und werten sie nicht aus. Diese Daten werden nicht mit anderen
+              Datenquellen zusammengeführt und nicht an Dritte weitergegeben.
+              Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO.
             </p>
 
             <h3 className="font-medium text-[#0f172a] mt-4 mb-1">
-              Kontaktaufnahme per Telefon oder E-Mail
+              Kein Kontaktformular
             </h3>
             <p>
-              Wenn Sie uns per Telefon oder E-Mail kontaktieren, werden Ihre
-              Angaben zur Bearbeitung Ihrer Anfrage bei uns gespeichert.
-              Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Vertragsanbahnung)
-              bzw. Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse).
+              Diese Website enthält kein Kontaktformular. Eine Kontaktaufnahme
+              ist ausschließlich per Telefon oder E-Mail möglich. Dabei
+              speichern wir Ihre Angaben nur zur Bearbeitung Ihrer Anfrage
+              und löschen diese danach. Rechtsgrundlage ist Art. 6 Abs. 1
+              lit. b DSGVO.
             </p>
           </section>
 
           <section>
             <h2 className="text-base font-semibold text-[#0f172a] mb-2">
-              4. Cookies und Tracking
+              4. Cookies, Tracking und Analyse
             </h2>
             <p>
-              Diese Website verwendet keine Cookies und kein
-              Tracking-/Analyse-Tools. Es werden keine personenbezogenen Daten
-              zu Werbe- oder Analysezwecken erfasst oder an Dritte weitergegeben.
+              Diese Website verwendet <strong>keine Cookies</strong>,
+              kein Google Analytics, kein Facebook Pixel und keinerlei
+              sonstige Tracking- oder Analyse-Tools. Es werden
+              keine Nutzerprofile erstellt und keine Daten zu Werbe-
+              oder Analysezwecken erfasst oder an Dritte weitergegeben.
+              Ein Cookie-Banner ist daher nicht erforderlich.
             </p>
           </section>
 
@@ -105,14 +116,31 @@ export default function Datenschutz() {
               6. Hosting
             </h2>
             <p>
-              Diese Website wird bei einem externen Dienstleister gehostet
-              (Hoster). Die personenbezogenen Daten, die auf dieser Website
-              erfasst werden, werden auf den Servern des Hosters gespeichert.
-              Der Einsatz des Hosters erfolgt zum Zwecke der Vertragserfüllung
-              gegenüber potenziellen und bestehenden Kunden (Art. 6 Abs. 1
-              lit. b DSGVO) und im Interesse einer sicheren, schnellen und
-              effizienten Bereitstellung unseres Online-Angebots (Art. 6 Abs. 1
-              lit. f DSGVO).
+              Diese Website wird gehostet bei:
+            </p>
+            <p className="mt-2">
+              <strong>Vercel Inc.</strong><br />
+              340 Pine Street, Suite 701<br />
+              San Francisco, CA 94104, USA<br />
+              Website: <a href="https://vercel.com" target="_blank" rel="noopener noreferrer" className="text-[#1a4a7a] hover:underline">vercel.com</a><br />
+              Datenschutz: <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-[#1a4a7a] hover:underline">vercel.com/legal/privacy-policy</a>
+            </p>
+            <p className="mt-3">
+              Die Domain <strong>aliu-hausmeisterservice.de</strong> ist registriert bei IONOS SE,
+              Elgendorfer Str. 57, 56410 Montabaur, Deutschland.
+            </p>
+            <p className="mt-3">
+              Die personenbezogenen Daten, die auf dieser Website erfasst werden,
+              werden auf den Servern von Vercel gespeichert. Mit Vercel wurde ein
+              Auftragsverarbeitungsvertrag (AVV) gemäß Art. 28 DSGVO geschlossen.
+              Der Einsatz erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO
+              (berechtigtes Interesse an einer sicheren und effizienten
+              Bereitstellung unseres Online-Angebots).
+            </p>
+            <p className="mt-3">
+              Vercel ist ein US-amerikanisches Unternehmen. Die Datenübertragung
+              in die USA erfolgt auf Grundlage der Standardvertragsklauseln der
+              EU-Kommission gemäß Art. 46 Abs. 2 lit. c DSGVO.
             </p>
           </section>
 

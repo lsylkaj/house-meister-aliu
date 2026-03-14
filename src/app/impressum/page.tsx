@@ -68,6 +68,32 @@ export default function Impressum() {
 
           <div>
             <h2 className="text-base font-semibold text-[#0f172a] mb-2">
+              Domain
+            </h2>
+            <p>
+              Die Domain <strong>aliu-hausmeisterservice.de</strong> ist registriert bei:<br />
+              IONOS SE<br />
+              Elgendorfer Str. 57<br />
+              56410 Montabaur<br />
+              Deutschland
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-base font-semibold text-[#0f172a] mb-2">
+              Hosting
+            </h2>
+            <p>
+              Diese Website wird gehostet bei:<br />
+              Vercel Inc.<br />
+              340 Pine Street, Suite 701<br />
+              San Francisco, CA 94104<br />
+              USA
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-base font-semibold text-[#0f172a] mb-2">
               Streitschlichtung
             </h2>
             <p>
